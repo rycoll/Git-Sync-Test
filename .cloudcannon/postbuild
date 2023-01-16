@@ -1,6 +1,6 @@
 echo $(git branch --show-current)
 
-BRANCH="$(git branch --show-current)"
+BRANCH="git branch --show-current"
 
 if [["$BRANCH" == "test-branch-2"]];
 then
