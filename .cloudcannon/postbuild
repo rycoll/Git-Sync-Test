@@ -1,8 +1,10 @@
-echo $(git branch --show-current)
 
-BRANCH=$(git branch --show-current)
 
-if [[$BRANCH == "test-branch-2"]];
+BRANCH="$(git branch --show-current)"
+
+echo "$(BRANCH)"
+
+if [["$BRANCH" == "test-branch-2"]];
 then
   echo "Yes!"
 else
