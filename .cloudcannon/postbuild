@@ -1,1 +1,8 @@
-git branch --show-current
+echo $(git branch --show-current)
+
+if [[$(git branch --show-current) == "test-branch-2"]];
+then
+  echo "Yes!"
+else
+  echo "No!"
+if
