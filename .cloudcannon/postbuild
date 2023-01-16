@@ -5,4 +5,4 @@ then
   echo "Yes!"
 else
   echo "No!"
-if
+fi
