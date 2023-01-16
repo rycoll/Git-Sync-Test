@@ -4,7 +4,7 @@ BRANCH="$(git branch --show-current)"
 
 echo "$BRANCH"
 
-if [[ "$BRANCH" == "test-branch-2" ]];
+if [[ "$BRANCH" == "test-brench-2" ]];
 then
   echo "Yes!"
 else
