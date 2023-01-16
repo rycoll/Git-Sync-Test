@@ -2,7 +2,7 @@
 
 BRANCH="$(git branch --show-current)"
 
-echo "$(BRANCH)"
+echo "$BRANCH"
 
 if [["$BRANCH" == "test-branch-2"]];
 then
