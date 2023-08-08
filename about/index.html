@@ -1,258 +1,641 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+   <head>
+      <title>About | Sendit</title>
+      <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A polished, marketing website template built with Eleventy">
+    <meta property="og:description" content="A polished, marketing website template built with Eleventy" />
 
-		<!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Our team of cats | Hydra Template</title>
-<meta name="generator" content="Jekyll v3.7.2" />
-<meta property="og:title" content="Our team of cats" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="We’ve built an amazing team of developers, marketers, designers and sales people." />
-<meta property="og:description" content="We’ve built an amazing team of developers, marketers, designers and sales people." />
-<link rel="canonical" href="https://proud-alligator.cloudvent.net/about/" />
-<meta property="og:url" content="https://proud-alligator.cloudvent.net/about/" />
-<meta property="og:site_name" content="Hydra Template" />
-<script type="application/ld+json">
-{"@type":"WebSite","headline":"Our team of cats","sameAs":["https://github.com/CloudCannon/hydra-jekyll-template"],"url":"https://proud-alligator.cloudvent.net/about/","name":"Hydra Template","description":"We’ve built an amazing team of developers, marketers, designers and sales people.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://proud-alligator.cloudvent.net/siteicon.png"}},"@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
 
-		<link type="application/atom+xml" rel="alternate" href="https://proud-alligator.cloudvent.net/feed.xml" title="Hydra Template" />
 
-		<link rel="stylesheet" href="/css/screen.css">
-		<link rel="icon" type="image/png" href="/favicon.png">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@twitter_site" />
 
-		
-			<script>
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', '', 'auto');
-				ga('send', 'pageview');
-			</script>
-			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<div class="company-name"><a href="/"><img src="/images/logo.svg" alt="Hydra Logo" width="95" height="33" /></a></div>
-				<nav>
-	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
-	
-		
-		
+    <meta name="og:title" content="About" />
+    <meta name="twitter:title" content="About" />
+    
+    <meta property="og:type" content="website" />
+    
+    
+    <meta name="og:image" content="/images/feature/feature-hero.png" />
+    
+        <meta name="twitter:image" content="/images/feature/feature-hero-two.png" />
+    
+    
+    
+    <meta name="twitter:creator" content="@twitter_site" />
+    
 
-		
-		<a href="/pricing/
-" class="" >Pricing</a>
-	
-		
-		
 
-		
-		<a href="/blog/
-" class="" >Blog</a>
-	
-		
-		
 
-		
-		<a href="/about/
-" class=" active" >About</a>
-	
-		
-		
 
-		
-		<a href="/contact/
-" class="" >Contact</a>
-	
-		
-		
+    <link rel="canonical" href="http://example.org/about/" />
 
-		
-		<a href="/
-" class="" target="_blank">Login</a>
-	
-		
-		
+<link href="/vendor/bootstrap/bootstrap.min.css" rel="stylesheet" />
+      <link href="/vendor/phosphor-icons/css/phosphor.css" rel="stylesheet" />
+      <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+      <link rel="stylesheet" href="/css/theme.css" /><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="/images/favicon.png">
+      <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.3/dist/cdn.min.js"></script>
+   </head>
+   <body>
+   <header>
+         <nav
+            class="navbar navbar-expand-lg position-fixed w-100 zindex-dropdown"
+            id="mainnavigationBar"
+         >
+            <div class="container-fluid">
+               <a class="navbar-brand" href="/">
+                  <img src="/images/logo.svg" alt="Nav-Logo" />
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-default">
+                     <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                     >
+                        <line
+                           x1="3.5"
+                           y1="5.5"
+                           x2="21.5"
+                           y2="5.5"
+                           stroke="#292D32"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                        <line
+                           x1="4.5"
+                           y1="12.5"
+                           x2="21.5"
+                           y2="12.5"
+                           stroke="#292D32"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                        <line
+                           x1="11.5"
+                           y1="19.5"
+                           x2="21.5"
+                           y2="19.5"
+                           stroke="#292D32"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                     </svg>
+                  </span>
+                  <span class="navbar-toggler-toggled">
+                     <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                     >
+                        <path
+                           d="M21.5 6.5L6.5 21.5"
+                           stroke="#404152"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                        <path
+                           d="M21.5 21.5L6.5 6.5"
+                           stroke="#404152"
+                           stroke-width="3"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        />
+                     </svg>
+                  </span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto mb-20 mb-lg-0">
+                     
+                     
+                     <li class="nav-item dropdown">
+                        
+                           <a class="nav-link " href="/">Home</a>
+                        
+                     </li>
+                     
+                     
+                     <li class="nav-item dropdown">
+                        
+                           <a class="nav-link " href="/feature/">Feature</a>
+                        
+                     </li>
+                     
+                     
+                     <li class="nav-item dropdown">
+                        
+                           <a class="nav-link " href="/pricing/">Pricing</a>
+                        
+                     </li>
+                     
+                     
+                     <li class="nav-item dropdown">
+                        
+                           <a class="nav-link active" href="/about/">About</a>
+                        
+                     </li>
+                     
+                     
+                     <li class="nav-item dropdown">
+                        
+                           <a
+                           class="nav-link dropdown-link "
+                           href="/blog/"
+                           id="navbarDropdown"
+                           role="button"
+                           aria-expanded="false"
+                           >Blog</a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           
+                           <li>
+                              <a class="dropdown-item" href="/blog">All Articles</a>
+                           </li>
+                           
+                           <li>
+                              <a class="dropdown-item" href="/tags/marketing/">Marketing</a>
+                           </li>
+                           
+                           <li>
+                              <a class="dropdown-item" href="/tags/technology/">Technology</a>
+                           </li>
+                           
+                           </ul>
+                        
+                     </li>
+                     
+                     
+                     <li class="nav-item dropdown">
+                        
+                           <a class="nav-link " href="/contact/">Contact</a>
+                        
+                     </li>
+                     
+                  </ul>
+               </div>  
+         </nav>
+</header>
 
-		
-		<a href="/
-" class=" highlight" target="_blank">Sign Up</a>
-	
-</nav>
 
-			</div>
-		</header>
-		<div class="content">
-	<section class="page">
-		<div class="container ">
-			
-				<h2>Our team of cats</h2>
-			
-			
-				<p class="subtext">We've built an amazing team of developers, marketers, designers and sales people.</p>
-			
-			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	
-		<li>
-			<div class="square-image"><img src="https://source.unsplash.com/collection/139386/601x601?a=.png
-" alt="Anna Thompson"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/CloudCannonApp">Anna Thompson</a></div>
-			<div class="position">Marketing</div>
-		</li>
-	
-		<li>
-			<div class="square-image"><img src="https://source.unsplash.com/collection/139386/602x602?a=.png
-" alt="Betty Jefferson"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/CloudCannonApp">Betty Jefferson</a></div>
-			<div class="position">Developer</div>
-		</li>
-	
-		<li>
-			<div class="square-image"><img src="https://source.unsplash.com/collection/139386/603x603?a=.png
-" alt="Gerald Freeman"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/CloudCannonApp">Gerald Freeman</a></div>
-			<div class="position">Sales</div>
-		</li>
-	
-		<li>
-			<div class="square-image"><img src="https://source.unsplash.com/collection/139386/604x604?a=.png
-" alt="James Lopez"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/CloudCannonApp">James Lopez</a></div>
-			<div class="position">Developer</div>
-		</li>
-	
-		<li>
-			<div class="square-image"><img src="https://source.unsplash.com/collection/139386/605x605?a=.png
-" alt="Robin Herrera"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/CloudCannonApp">Robin Herrera</a></div>
-			<div class="position">CEO</div>
-		</li>
-	
-		<li>
-			<div class="square-image"><img src="https://source.unsplash.com/collection/139386/600x600?a=.png
-" alt="Tom Wilson"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/CloudCannonApp">Tom Wilson</a></div>
-			<div class="position">CTO</div>
-		</li>
-	
-</ul>
+    <!--bookshop-live meta(version: "3.3.3" ) -->
+<!--bookshop-live name(page) params(content_blocks: content_blocks) context() --><main>
 
-		</div>
-	</section>
+    <!--bookshop-live name(about/hero) params(bind: block) context(block: content_blocks[0]) --><section class="about-hero-two">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5 col-lg-10 mx-auto">
+        <div class="about-hero-two-content position-relative">
+          <h2>On a mission to change email marketing</h2>
+          <p>We're here to breathe new air into email marketing and help grow your business.</p>
+
+          <div
+            class="scroll-down d-flex justify-content-center justify-content-xl-start"
+          >
+            <a href="/signup" class="btn btn-primary btn-lg">
+              Try This Free
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-7 col-lg-12">
+        <div class="about-hero-two-banner">
+        
+          <div class="
+          image-one
+        ">
+            <img src="/images/about/aboutfeature-two.jpg" alt="People working on laptops" loading="lazy"/>
+          </div>
+        
+          <div class="
+          image-two
+        ">
+            <img src="/images/about/aboutfeature-three.jpg" alt="Group working on a laptop" loading="lazy"/>
+          </div>
+        
+          <div class="
+          image-three
+        ">
+            <img src="/images/about/aboutfeature-four.jpg" alt="Staff group photo" loading="lazy"/>
+          </div>
+        
+          <div class="pattern"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--bookshop-live end-->
+
+    <!--bookshop-live name(global/counter) params(bind: block) context(block: content_blocks[1]) --><section
+   class="counter-up  counter-up-two pb-xxl-14 pb-lg-13 "
+   id="counter-up"
+>
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="section-header">
+               <h2>
+                  Built for your <span>Business</span>
+               </h2>
+               <p>We've built Sendit from the ground up the help grow your business faster.</p>
+
+            </div>
+         </div>
+         <div class="col-12">
+            <div class="counter-up-wrapper d-grid">
+               
+               <div class="counter-up-content">
+                  <div class="counter-up-content-item">
+                     <div class="counter-percent">
+                        
+                        <span class="percent">$</span>
+                        
+                        <span class="counter">200</span>
+                        
+                        <span class="percent">m</span>
+                        
+                     </div>
+                     <p>Venture capital raised</p>
+                  </div>
+               </div>
+               
+               <div class="counter-up-content">
+                  <div class="counter-up-content-item">
+                     <div class="counter-percent">
+                        
+                        <span class="counter">2016</span>
+                        
+                     </div>
+                     <p>Established in</p>
+                  </div>
+               </div>
+               
+               <div class="counter-up-content">
+                  <div class="counter-up-content-item">
+                     <div class="counter-percent">
+                        
+                        <span class="counter">40</span>
+                        
+                        <span class="percent">+</span>
+                        
+                     </div>
+                     <p>Amazing team members</p>
+                  </div>
+               </div>
+               
+               <div class="counter-up-content">
+                  <div class="counter-up-content-item">
+                     <div class="counter-percent">
+                        
+                        <span class="counter">44325</span>
+                        
+                        <span class="percent">+</span>
+                        
+                     </div>
+                     <p>Active users and growing</p>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--bookshop-live end-->
+
+    <!--bookshop-live name(about/video) params(bind: block) context(block: content_blocks[2]) --><section class="works">
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-lg-6">
+            <div class="works-content">
+               <h2>We love what we do</h2>
+               <p>Our team has decades of experience working with email marketing campaigns and we’re passionate about helping you connect with your customers.</p>
+
+               <a href="https://www.linkedin.com/" class="btn btn-lg btn-white" target="_blank"> Follow on Linkedin </a>
+            </div>
+         </div>
+         <div class="col-lg-6">
+            <div class="works-banner">
+               <img src="/images/works/banner.jpg" class="w-100" alt="Thumbnail image for video" loading="lazy" style="border-radius:20px"/>
+               <div class="effect"></div>
+               <div class="video-iframe d-flex align-items-center justify-content-center">
+                  <div class="video-icon me-sm-9 me-8">
+                     <a class="popup-vimeo" href="https://vimeo.com/45830194">
+                        <svg
+                           width="28"
+                           height="32"
+                           viewBox="0 0 28 32"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                        >
+                           <path
+                              d="M26 12.5359C28.6667 14.0755 28.6667 17.9245 26 19.4641L6.5 30.7224C3.83333 32.262 0.499998 30.3375 0.499999 27.2583L0.5 4.74167C0.5 1.66247 3.83333 -0.262033 6.5 1.27757L26 12.5359Z"
+                              fill="white"
+                           />
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--bookshop-live end-->
+
+    <!--bookshop-live name(about/team) params(bind: block) context(block: content_blocks[3]) --><div class="team">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-10 col-xl-7 mx-auto">
+            <div class="section-header">
+               <h2>Our leadership team</h2>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/1.jpg" alt="Team member: Nikolas Mcconnell" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Nikolas Mcconnell</h3>
+                  <p>Co-Founder & CEO</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/2.jpg" alt="Team member: Keiren Mcculloch" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Keiren Mcculloch</h3>
+                  <p>CMO</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/3.jpg" alt="Team member: Piers Reyes" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Piers Reyes</h3>
+                  <p>Head of Marketing</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/4.jpg" alt="Team member: Zachary Arias" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Zachary Arias</h3>
+                  <p>Co-founder & CTO</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/5.jpg" alt="Team member: Harmony Dunlop" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Harmony Dunlop</h3>
+                  <p>Head of Sales</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/6.jpg" alt="Team member: Elize Schwartz" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Elize Schwartz</h3>
+                  <p>CRO</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/7.jpg" alt="Team member: Coen Simmons" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Coen Simmons</h3>
+                  <p>Head of Design</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+               <div class="team-member-thumb">
+                  <img src="/images/team/8.jpg" alt="Team member: Fran Figureson" loading="lazy" style="border-radius:20px"/>
+               </div>
+               <div class="team-member-details">
+                  <h3>Fran Figureson</h3>
+                  <p>Head of People</p>
+               </div>
+            </div>
+         </div>
+         
+      </div>
+   </div>
 </div>
+<!--bookshop-live end-->
 
-		<footer>
-			<div class="container">
-				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
-				<div class="footer-columns">
-					
-					<ul class="footer-links">
-						
-							<li><a  href="/pricing/
-" >
-								
-								Pricing</a></li>
-						
-							<li><a  href="/blog/
-" >
-								
-								Blog</a></li>
-						
-							<li><a  href="/about/
-" >
-								
-								About</a></li>
-						
-							<li><a  href="/contact/
-" >
-								
-								Contact</a></li>
-						
-					</ul>
-					
-					<ul class="footer-links">
-						
-							<li><a target="_blank" href="/
-" >
-								
-								Login</a></li>
-						
-							<li><a target="_blank" href="/
-" >
-								
-								Sign Up</a></li>
-						
-							<li><a target="_blank" href="/
-" >
-								
-								Docs</a></li>
-						
-							<li><a target="_blank" href="/
-" >
-								
-								Status</a></li>
-						
-					</ul>
-					
-					<ul class="footer-links">
-						
-							<li><a target="_blank" href="https://facebook.com
-" class="Facebook-icon">
-								
-									
-		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
-	
+</main>
+<!--bookshop-live end--> 
 
-								
-								Facebook</a></li>
-						
-							<li><a target="_blank" href="https://twitter.com
-" class="Twitter-icon">
-								
-									
-		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" /></svg>
-	
-
-								
-								Twitter</a></li>
-						
-							<li><a target="_blank" href="https://youtube.com
-" class="YouTube-icon">
-								
-									
-		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10,16.5V7.5L16,12M20,4.4C19.4,4.2 15.7,4 12,4C8.3,4 4.6,4.19 4,4.38C2.44,4.9 2,8.4 2,12C2,15.59 2.44,19.1 4,19.61C4.6,19.81 8.3,20 12,20C15.7,20 19.4,19.81 20,19.61C21.56,19.1 22,15.59 22,12C22,8.4 21.56,4.91 20,4.4Z" /></svg>
-	
-
-								
-								YouTube</a></li>
-						
-							<li><a  href="/feed.xml
-" class="RSS-icon">
-								
-									
-		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
-
-
-								
-								RSS</a></li>
-						
-					</ul>
-					
-				</div>
-				<p class="copyright">&copy; 2019 MyApp Ltd. • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
-			</div>
-		</footer>
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
-	</body>
+      <footer class="footer pt-xxl-19 pt-8 pb-sm-7 pb-5" id="footer">
+         <div class="container-fluid">
+            <div class="footer-wrapper">
+               <div class="row">
+                  <div class="col-12 col-lg-4 me-auto order-2 order-lg-1">
+                     <div class="footer-logo mt-7 mt-md-0">
+                        <a href="/" class="">
+                           <img src="/images/footer-logo.svg" alt="logo" />
+                        </a>
+                        <p class="">
+                           Copyright 2023 MyCompany, All rights reserved!
+                        </p>
+                     </div>
+                     <div class="social-icon">
+                        <ul class="list-unstyled">
+                           
+                           <li>
+                              <a href="https://www.facebook.com/"> <i class="ph-facebook-logo" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a>
+                           </li>
+                           
+                           <li>
+                              <a href="https://www.instagram.com/"> <i class="ph-instagram-logo" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a>
+                           </li>
+                           
+                           <li>
+                              <a href="https://twitter.com/"> <i class="ph-twitter-logo" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a>
+                           </li>
+                           
+                           <li>
+                              <a href="https://www.github.com/"> <i class="ph-github-logo" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+                           </li>
+                           
+                           <li>
+                              <a href="https://www.youtube.com/"> <i class="ph-youtube-logo" aria-hidden="true"></i><span class="visually-hidden">YouTube</span></a>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                  </div>
+                  
+                  <div class="col-6 col-md-3 col-lg-2 order-1">
+                     <div class="footer-widget">
+                        <h3>Main Pages</h3>
+                        <ul class="list-unstyled">
+                           
+                           <li>
+                              <a href="/">Home</a>
+                           </li>
+                           
+                           <li>
+                              <a href="/feature">Feature</a>
+                           </li>
+                           
+                           <li>
+                              <a href="/pricing">Price</a>
+                           </li>
+                           
+                           <li>
+                              <a href="/about">About</a>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                  </div>
+                  
+                  <div class="col-6 col-md-3 col-lg-2 order-1">
+                     <div class="footer-widget">
+                        <h3>Community</h3>
+                        <ul class="list-unstyled">
+                           
+                           <li>
+                              <a href="/blog">Blog</a>
+                           </li>
+                           
+                           <li>
+                              <a href="/404">404</a>
+                           </li>
+                           
+                           <li>
+                              <a href="/sitemap.xml">Sitemap</a>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                  </div>
+                  
+                  <div class="col-6 col-md-3 col-lg-2 order-1">
+                     <div class="footer-widget">
+                        <h3>Company</h3>
+                        <ul class="list-unstyled">
+                           
+                           <li>
+                              <a href="/contact">Contact</a>
+                           </li>
+                           
+                           <li>
+                              <a href="/privacy">Privacy Policy</a>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="/vendor/jQuery/jquery.min.js"></script>
+      <script src="/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+      <script src="/vendor/waypoints/waypoints.min.js"></script>
+      <script src="/vendor/magnific-popup/magnific-popup.min.js"></script>
+      <script src="/js/script.js"></script>
+   
+<script>
+(function(){
+    const bookshopLiveSetup = (CloudCannon) => {
+      CloudCannon.enableEvents();
+      CloudCannon?.setLoading?.("Loading Bookshop Live Editing");
+      let triggeredLoad = false;
+      const whenLoaded = () => {
+        triggeredLoad = true;
+        CloudCannon?.setLoading?.(false);
+      }
+      setTimeout(() => {
+        if (!triggeredLoad) {
+          CloudCannon?.setLoading?.("Error Loading Bookshop Live Editing");
+          setTimeout(() => {
+            if (!triggeredLoad) { whenLoaded() }
+          }, 2000);
+        }
+      }, 12000);
+  
+      const head = document.querySelector('head');
+      const script = document.createElement('script');
+      script.src = `/_cloudcannon/bookshop-live.js`;
+      script.onload = function() {
+        window.bookshopLive = new window.BookshopLive({
+          remoteGlobals: [],
+          loadedFn: whenLoaded,
+        });
+        const updateBookshopLive = async () => {
+          const frontMatter = await CloudCannon.value({
+            keepMarkdownAsHTML: false,
+            preferBlobs: true
+          });
+          const options = window.bookshopLiveOptions || {};
+          const rendered = await window.bookshopLive.update(frontMatter, options);
+          if (rendered) CloudCannon?.refreshInterface?.();
+        }
+        document.addEventListener('cloudcannon:update', updateBookshopLive);
+        updateBookshopLive();
+      }
+      head.appendChild(script);
+    }
+  
+    document.addEventListener('cloudcannon:load', function (e) {
+      bookshopLiveSetup(e.detail.CloudCannon);
+    });
+  })();
+</script>
+</body>
 </html>
