@@ -1,6 +1,6 @@
 ---
 date: 2016-08-02 00:00:00
-title: Sales effectiveness
+title: Sales effectiveness!
 categories:
   - sales
   - tips
