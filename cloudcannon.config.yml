@@ -140,3 +140,5 @@ _structures: {}
 _editables: {}
 data_config: {}
 timezone: Etc/UTC
+
+upstream_commit_template: "[author] merged [publish_branch] into [branch] ⭐️ at [date]"
