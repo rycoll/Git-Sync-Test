@@ -1,0 +1,142 @@
+paths:
+  uploads: uploads
+  dam_uploads: ''
+  static: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: _posts
+    output: true
+    description: ''
+    icon: notes
+    _editables: {}
+    _inputs:
+      date:
+        type: date
+        comment: This is a **date** field (not a datetime field)
+        cascade: true
+    _select_data: {}
+    _structures: {}
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas: {}
+  drafts:
+    path: _drafts
+    output: false
+    icon: notes
+    create:
+      publish_to: posts
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  staff_members:
+    path: _staff_members
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  map:
+    type: text
+    comment: Update the map location and display settings.
+    cascade: true
+  latitude:
+    type: text
+    comment: Coordinates for the center marker on the map.
+    cascade: true
+  longitude:
+    type: text
+    comment: Coordinates for the center marker on the map.
+    cascade: true
+  zoom:
+    type: text
+    comment: The zoom level for the map.
+    cascade: true
+  pricing_table:
+    type: text
+    comment: Update the information in the pricing tables.
+    cascade: true
+  highlight:
+    type: text
+    comment: Emphasis the text
+    cascade: true
+  color:
+    type: color
+    comment: The background colour used in the plan name and call to action.
+    cascade: true
+  new_window:
+    type: text
+    comment: Open link in new window
+    cascade: true
+_select_data:
+  author:
+    name:
+    email:
+    twitter:
+  social:
+    name: Hydra Template
+    links:
+      - https://github.com/CloudCannon/hydra-jekyll-template
+  jekyll-archives:
+    layout: archive
+    enabled:
+      - categories
+    permalinks:
+      year: /:year/
+      month: /:year/:month/
+      day: /:year/:month/:day/
+      tag: /tag/:name/
+      category: /category/:name/
+  social_icons:
+    - Facebook
+    - Google Plus
+    - Instagram
+    - LinkedIn
+    - Pinterest
+    - Tumblr
+    - Twitter
+    - YouTube
+    - RSS
+  archives:
+    - ''
+    - ''
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: Etc/UTC
