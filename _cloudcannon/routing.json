@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "from": "/not-found/(.*)",
+      "to": "/index.html",
+      "status": 404
+    },
+    {
+      "from": "/images/(.*)",
+      "to": "/index.html",
+      "status": 404,
+      "forced": false
+    }
+  ]
+}
