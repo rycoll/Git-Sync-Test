@@ -9,7 +9,7 @@
       "from": "/images/(.*)",
       "to": "/index.html",
       "status": 404,
-      "forced": false
+      "forced": true
     }
   ]
 }
