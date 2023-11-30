@@ -8,7 +8,7 @@
     {
       "from": "/images/(.*)",
       "to": "/index.html",
-      "status": 410,
+      "status": 301,
       "forced": true
     }
   ]
