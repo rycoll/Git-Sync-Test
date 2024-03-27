@@ -1,5 +1,6 @@
 paths:
-  uploads: uploads
+  uploads: [base_path]
+  uploads_use_relative_path: true
   dam_uploads: ''
   static: ''
   dam_static: ''
