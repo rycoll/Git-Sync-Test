@@ -1,4 +1,1 @@
-
-User-agent: *
-
-Sitemap: http://example.org/sitemap.xml
+Sitemap: https://proud-alligator.cloudvent.net/sitemap.xml

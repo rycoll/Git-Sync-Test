@@ -1,115 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-        
-            <url>
-                <loc>http://example.org/blog/5-things-to-improve-you-email-templates/</loc>
-                <lastmod>2022-03-07</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/blog/best-email-sending-services/</loc>
-                <lastmod>2022-03-07</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/blog/email-delivery-tips/</loc>
-                <lastmod>2022-03-07</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/blog/how-to-host-better-email-marketing-campaigns/</loc>
-                <lastmod>2022-03-07</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/blog/what-are-the-best-email-clients/</loc>
-                <lastmod>2022-03-07</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/blog/7-things-you-didn't-know-about-email/</loc>
-                <lastmod>2022-04-14</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/tags/blog/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/blog/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/signup/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/privacy/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/contact/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/pricing/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/login/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/feature/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/about/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
-        
-            <url>
-                <loc>http://example.org/</loc>
-                <lastmod>2023-11-09</lastmod>
-                <changefreq>monthly</changefreq>
-            </url>
-        
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://proud-alligator.cloudvent.net/sales/2016/07/20/the-process-for-direct-sales/</loc>
+<lastmod>2016-07-20T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/sales/tips/2016/07/28/effective-upselling-techniques/</loc>
+<lastmod>2016-07-28T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/sales/2016/08/02/sales-effectiveness/</loc>
+<lastmod>2016-08-02T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/sales/2016/08/06/definition-of-sales/</loc>
+<lastmod>2016-08-06T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/aboot/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/contact-success/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/contact/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/blog/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/pricing/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/category/sales/</loc>
+</url>
+<url>
+<loc>https://proud-alligator.cloudvent.net/category/tips/</loc>
+</url>
 </urlset>
