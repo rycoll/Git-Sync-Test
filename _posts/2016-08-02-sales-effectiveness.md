@@ -5,7 +5,7 @@ categories:
   - sales
 author_staff_member: gerald
 ---
-Sales effectiveness refers to the ability of a company’s sales professionals to “win” at each stage of the customer’s buying process, and ultimately earn the business on the right terms and in the right timeframe.
+Sales effectiveness refers to the ability of a company’s sales professionals to “win” at each stage of the customer’s buying process, and ultimately earn the business on the right terms and in the right timeframe!
 
 ![American River](https://source.unsplash.com/random/1500x1146)
 
