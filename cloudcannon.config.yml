@@ -113,8 +113,8 @@ markdown:
     strikethrough: true
     subscript: true
     superscript: true
-    heading_ids: false
-    attributes: false
+    heading_ids: true
+    attributes: true
   options:
     html: false
     xhtml: false

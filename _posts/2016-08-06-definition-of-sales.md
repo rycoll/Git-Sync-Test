@@ -5,10 +5,3 @@ categories:
   - sales
 author_staff_member: james
 ---
-
-
-asdZXasdad
-
-| my | table |
-|--- | --- |
-| is | cool |
