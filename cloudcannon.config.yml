@@ -105,14 +105,14 @@ timezone: Etc/UTC
 markdown:
   engine: kramdown
   extensions:
-    table: true
+    table: false
     footnote: false
     abbreviation: false
     definition_list: false
     task_list: false
-    strikethrough: false
-    subscript: false
-    superscript: false
+    strikethrough: true
+    subscript: true
+    superscript: true
     heading_ids: false
     attributes: false
   options:
