@@ -1,12 +1,14 @@
 ---
-date: 2016-08-06
+date: 2016-08-06 00:00:00
 title: Definition of sales
 categories:
   - sales
 author_staff_member: james
 ---
 
-| asd | asd | asdad |
-| --- | --- | --- |
-| asda | asdasd | asd |
-| asd | asd | asd |
+
+asdZXasdad
+
+| my | table |
+|--- | --- |
+| is | cool |
