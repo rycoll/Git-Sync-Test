@@ -105,7 +105,7 @@ timezone: Etc/UTC
 markdown:
   engine: kramdown
   extensions:
-    # table: false
+    table: true
     footnote: false
     abbreviation: false
     definition_list: false
