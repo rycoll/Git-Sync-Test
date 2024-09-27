@@ -10,7 +10,7 @@ author_staff_member: anna
 
 ![Checkmate](https://source.unsplash.com/random/1500x1145)
 
-## Textbook definition
+## Textbook!
 
 A textbook definition is: “The direct personal presentation, demonstration, and sale of products and services to consumers, usually in their homes or at their jobs.”
 
