@@ -1,4 +1,4 @@
-la
+ls -a
 
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 
