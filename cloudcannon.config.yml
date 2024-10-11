@@ -1,0 +1,5 @@
+_inputs:
+  image_path:
+    options:
+      paths:
+        uploads_filename: 'dog-{date|year}.png'
