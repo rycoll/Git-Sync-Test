@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+This is some new text!
+=======
 fsfsdf
 sfsdf
 sdfsdfs
+>>>>>>> 8e70f055e6db9d067df53da7b564541d472f9b96
