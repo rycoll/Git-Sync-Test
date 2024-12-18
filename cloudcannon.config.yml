@@ -1,3 +1,7 @@
+commit_templates:
+  template_string: '🐷💬 {message}'
+
+
 collections_config:
   pages:
     path: ''
