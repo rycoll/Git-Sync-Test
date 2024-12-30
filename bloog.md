@@ -1,1 +1,1 @@
-pig_and_apple: 🍎
+pig_and_apple: 🐷🍎
