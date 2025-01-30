@@ -1,1 +1,3 @@
-message: from master
+---
+title: Blog
+---
