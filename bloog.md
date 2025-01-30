@@ -1,1 +1,3 @@
-message: hello world
+---
+title: Bloog
+---
