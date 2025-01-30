@@ -1,1 +1,1 @@
-message: hello world
+message: from master
