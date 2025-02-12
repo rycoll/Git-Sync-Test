@@ -16,6 +16,12 @@ In restaurants and other similar settings, upselling is commonplace and an accep
 
 ## Why should you upsell?
 
+<<<<<<<
+mock conflict
+=======
+conflict mock
+>>>>>>>
+
 Upselling is a common practice for service providers that offer different service classes such as airlines (cf. Bohutinsky, 1990). According to “the journal of business and industrial marketing; written collaboratively by Michael J, Sheehan and Paul R, Prabhaker “It is five times more expensive to get a new customer as it is to hold onto a current one.” Selling to a new customer would mean having to start the sales process from the very beginning thus having to establish a new relationship with a different customer. This can be time consuming and often not very effective.
 
 ![Gleise](https://source.unsplash.com/random/1500x1147)
