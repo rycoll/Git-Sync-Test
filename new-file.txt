@@ -1,1 +1,1 @@
-hasMergeConflicthasMergeConflicthasMergeConflict
+This is a new text file.
