@@ -1,6 +1,6 @@
 ---
-date: 2016-08-02T00:00:00Z
-title: Sales effectiveness...
+date: 2016-08-02 00:00:00
+title: Sales effectiveness!
 categories:
   - sales
 author_staff_member: gerald
