@@ -4,9 +4,17 @@
 								)();
 								</script>
 							<head></head><body>---
-title: Thank you
+title: About our team
+description: We've built an amazing team of developers, marketers, designers and sales people.
 ---
-
-<h2>Success</h2>
-<p class="subtext">Your message is sent. We'll be in touch soon.</p>
+<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>✎</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.staff_members %}
+		<li>
+			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"></div>
+			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="position">{{ person.position }}</div>
+		</li>
+	{% endfor %}
+</ul>
 </body></html>
