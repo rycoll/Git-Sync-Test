@@ -1,17 +1,17 @@
 ---
-date: 2016-08-12 00:00:00
+date: 2016-08-12T00:00:00Z
 title: The history of marketing...
 categories:
   - marketing
-author_staff_member: robin
+author_staff_member: /_staff_members/betty.md
 ---
-The beginnings of digital marketing technology can be traced back to the 1980's, when computers became sophisticated enough to store huge volumes of customer information. For a brief moment, no one knew what would happen in digital marketing, but by the 90's it all became clear.
+The beginnings of digital marketing technology can be traced back to the 1980’s, when computers became sophisticated enough to store huge volumes of customer information. For a brief moment, no one knew what would happen in digital marketing, but by the 90’s it all became clear.
 
 ![Man](https://source.unsplash.com/random/1500x1146)
 
-The history of marketing is to a large extent a product of Internet's history as markets have adapted to keep abreast of changes and keep up with the way the major Search Engines rank web pages. Major changes include, in chronological order:
+The history of marketing is to a large extent a product of Internet’s history as markets have adapted to keep abreast of changes and keep up with the way the major Search Engines rank web pages. Major changes include, in chronological order:
 
-1991- Gopher: A network protocol, one of the very first query and search tools. Gopher was widely used for a couple of years, but usage has now fallen off, with barely 100 Gopher servers now indexed. 2. 1994- Launch of Yahoo, which was formerly known as "Jerry´s Guide to the World Wide Web" after one of its founders, Jerry Yang. Yahoo received in its first year over 1 million hits.
+1991- Gopher: A network protocol, one of the very first query and search tools. Gopher was widely used for a couple of years, but usage has now fallen off, with barely 100 Gopher servers now indexed. 2. 1994- Launch of Yahoo, which was formerly known as “Jerry´s Guide to the World Wide Web” after one of its founders, Jerry Yang. Yahoo received in its first year over 1 million hits.
 
 ## Academic studies
 
