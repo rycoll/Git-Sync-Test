@@ -1,30 +1,43 @@
-pull_request_templates:
-  - label: Simple
-  - title: Unlabelled with default title
-  - body: Unlabelled with default body
-  - label: Bug fix
-    title: Bug fix
-    body: '## Please describe the changes here'
-    _inputs:
-      title:
-        options:
-          required
-      body:
-        type: markdown
-  - label: Bad types
-    title:
-      title_subfield: Hello
-    body: [1, 2, 3]
-  - label: Bad _inputs
-    title:
-      title_subfield: Hello
-    _inputs:
-      title:
-        type: object
-      body:
-        type: array
-      body[*]:
-        type: number
+pull_request_templates: []
+# pull_request_templates:
+#   - label: Simple
+#     _inputs:
+#       title:
+#         options:
+#           required: true
+#   - title: Unlabelled with default title
+#   - body: Unlabelled with default body
+#   - label: Bug fix
+#     title:
+#     body: '## Please describe the changes here'
+#     _inputs:
+#       title:
+#         options:
+#           required: true
+#       body:
+#         type: markdown
+#   - label: Bad types
+#     title:
+#       title_subfield: Hello
+#     body: [1, 2, 3]
+#   - label: Bad _inputs
+#     title:
+#       title_subfield: Hello
+#     _inputs:
+#       title:
+#         type: object
+#       body:
+#         type: array
+#       body[*]:
+#         type: number
+#   - label: Hidden inputs
+#     title: Hidden title
+#     body: Hidden body
+#     _inputs:
+#       title:
+#         hidden: true
+#       body:
+#         hidden: true
 
 paths:
   uploads: uploads
