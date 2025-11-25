@@ -1,14 +1,20 @@
 pull_request_templates:
-  - label: Simple
   - label: Bug fix
-    title: Bug fix
-    body: '## Please describe your changes below'
     _inputs:
       title:
         options:
-          required
+          required: true
+          pattern: '[0-9]{4}-[0-9]{2}-[0-9]{2}'
+          pattern_message: Must begin with today's date in YYYY-MM-DD format.
       body:
         type: markdown
+        comment: Please add a bulleted list of changes
+  - label: New content
+    _inputs:
+      title: 
+      body:
+        type: markdown
+        comment: Please add a bulleted list of changes
 
 paths:
   uploads: uploads
