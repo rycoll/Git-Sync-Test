@@ -1,3 +1,31 @@
+pull_request_templates:
+  - label: Simple
+  - title: Unlabelled with default title
+  - body: Unlabelled with default body
+  - label: Bug fix
+    title: Bug fix
+    body: '## Please describe the changes here'
+    _inputs:
+      title:
+        options:
+          required
+      body:
+        type: markdown
+  - label: Bad types
+    title:
+      title_subfield: Hello
+    body: [1, 2, 3]
+  - label: Bad _inputs
+    title:
+      title_subfield: Hello
+    _inputs:
+      title:
+        type: object
+      body:
+        type: array
+      body[*]:
+        type: number
+
 paths:
   uploads: uploads
   static: ''
