@@ -1,6 +1,6 @@
 ---
-date: 2016-07-28 00:00:00
-title: Effective upselling techniques
+date: 2016-07-28T00:00:00Z
+title: Research & Development
 categories:
   - sales
   - tips
