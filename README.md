@@ -9,7 +9,7 @@ Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jeky
 
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-## Features
+## Features?
 
 * Contact form
 * Pre-built pages
